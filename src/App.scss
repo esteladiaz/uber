@@ -3,7 +3,6 @@
 	scroll-snap-points-y: repeat(100vw);
 	scroll-snap-type: x mandatory;
   display: flex;
-  flex-wrap: wrap;
 	overflow-x: scroll;
 }
 
@@ -17,7 +16,6 @@ header, section {
   justify-content: center;
   position: relative;
   text-align: center;
-  width: 300vw;
   h1 {
     font-weight: 700;
     margin: 1rem 0;
