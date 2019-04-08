@@ -8,17 +8,17 @@ class App extends Component {
       <Fragment>
         <header>
           <div className="content one">
-              <div className="logo one" alt="Gradients" />
+              <div className="logo one" alt="Gradients">1</div>
               <h1>Gradients</h1>
               <p>Start, end, angle</p>
             </div>
             <div className="content two">
-              <div className="logo two" alt="Presets" />
+              <div className="logo two" alt="Presets">2</div>
               <h1>Presets</h1>
               <p>Manage presets</p>
             </div>
             <div className="content three">
-              <div className="logo three" alt="Colors" />
+              <div className="logo three" alt="Colors">3</div>
               <h1>Colors</h1>
               <p>Pick any color</p>
             </div>

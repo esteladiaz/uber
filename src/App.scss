@@ -20,8 +20,15 @@ header, section {
     width: 100vw;
   }
   .logo {
+    align-items: center;
     border-radius: 50%;
+    color: #fff;
+    display: flex;
+    font-size: 1rem;
+    font-weight: 700;
     height: 2rem;
+    justify-content: center;
+    line-height: 1rem;
     margin: auto;
     width: 2rem;
     &.one {
