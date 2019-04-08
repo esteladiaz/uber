@@ -1,26 +1,38 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+      <Fragment>
+        <header>
+          <div className="content one">
+              <img src={logo} className="logo" alt="logo" />
+              <h1>Gradients</h1>
+              <p>Start, end, angle</p>
+            </div>
+            <div className="content two">
+              <img src={logo} className="logo" alt="logo" />
+              <h1>Presets</h1>
+              <p>Manage presets</p>
+            </div>
+            <div className="content three">
+              <img src={logo} className="logo" alt="logo" />
+              <h1>Colors</h1>
+              <p>Pick any color</p>
+            </div>
         </header>
-      </div>
+        <section className="gradient one">
+          <div className="icon" />
+        </section>
+        <section className="gradient two">
+          <div className="icon" />
+        </section>
+        <section className="gradient three">
+          <div className="icon" />
+        </section>
+      </Fragment>
     );
   }
 }

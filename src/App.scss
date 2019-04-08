@@ -1,0 +1,59 @@
+.logo {
+  height: 40px;
+  pointer-events: none;
+}
+
+header {
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #000;
+  text-align: center;
+  h1 {
+    font-weight: 700;
+    margin: 1rem 0;
+  }
+  p {
+    color: #6f6f6f;
+    margin: 0;
+  }
+  .content {
+    width: 100vw;
+  }
+}
+
+.gradient {
+  display: flex;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  &.one {
+    background-color: #2cc3ff;
+  }
+  &.two {
+    background-color: #862cff;
+  }
+  &.three {
+    background-color: #ff2cf4;
+  }
+}
+
+.icon {
+  background: #fff;
+  border-radius: 50%;
+  height: 5rem;
+  width: 5rem;
+}
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
