@@ -1,17 +1,13 @@
-.logo {
-  height: 40px;
-  pointer-events: none;
-}
-
-header {
-  height: 50vh;
+header, section {
+  align-items: center;
+  color: #000;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: #000;
+  height: 50vh;
+  justify-content: center;
   text-align: center;
+  width: 300vw;
   h1 {
     font-weight: 700;
     margin: 1rem 0;
@@ -20,33 +16,45 @@ header {
     color: #6f6f6f;
     margin: 0;
   }
-  .content {
+  .content, .gradient {
     width: 100vw;
   }
-}
-
-.gradient {
-  display: flex;
-  height: 50vh;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-  &.one {
-    background-color: #2cc3ff;
+  .logo {
+    border-radius: 50%;
+    height: 2rem;
+    margin: auto;
+    width: 2rem;
+    &.one {
+      background: linear-gradient(to top right,#8c51fd, #6ae7fb);
+    }
+    &.two {
+      background: linear-gradient(to top right,#6ae7fb, #fdeb32);
+    }
+    &.three {
+      background: linear-gradient(to top right,#fdeb32, #e94782);
+    }
   }
-  &.two {
-    background-color: #862cff;
+  .gradient {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    .icon {
+      background: #fff;
+      border-radius: 50%;
+      height: 5rem;
+      width: 5rem;
+    }
+    &.one {
+      background: linear-gradient(to right,#8c51fd, #6ae7fb);
+    }
+    &.two {
+      background: linear-gradient(to right,#6ae7fb, #fdeb32);
+    }
+    &.three {
+      background: linear-gradient(to right,#fdeb32, #e94782);
+    }
   }
-  &.three {
-    background-color: #ff2cf4;
-  }
-}
-
-.icon {
-  background: #fff;
-  border-radius: 50%;
-  height: 5rem;
-  width: 5rem;
 }
 
 /* @keyframes App-logo-spin {

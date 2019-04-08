@@ -8,29 +8,31 @@ class App extends Component {
       <Fragment>
         <header>
           <div className="content one">
-              <img src={logo} className="logo" alt="logo" />
+              <div className="logo one" alt="Gradients" />
               <h1>Gradients</h1>
               <p>Start, end, angle</p>
             </div>
             <div className="content two">
-              <img src={logo} className="logo" alt="logo" />
+              <div className="logo two" alt="Presets" />
               <h1>Presets</h1>
               <p>Manage presets</p>
             </div>
             <div className="content three">
-              <img src={logo} className="logo" alt="logo" />
+              <div className="logo three" alt="Colors" />
               <h1>Colors</h1>
               <p>Pick any color</p>
             </div>
         </header>
-        <section className="gradient one">
-          <div className="icon" />
-        </section>
-        <section className="gradient two">
-          <div className="icon" />
-        </section>
-        <section className="gradient three">
-          <div className="icon" />
+        <section>
+          <div className="gradient one">
+            <div className="icon" />
+          </div>
+          <div className="gradient two">
+            <div className="icon" />
+          </div>
+          <div className="gradient three">
+            <div className="icon" />
+          </div>
         </section>
       </Fragment>
     );
