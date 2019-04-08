@@ -3,6 +3,8 @@ import React from 'react'
 const Slide1 = () => {
   return (
     <div className="slide-container">
+    <div className="nav left">LEFT</div>
+    <div className="nav right">RIGHT</div>
       <header>
         <div className="content one">
           <div className="logo one" alt="Gradients">1</div>
