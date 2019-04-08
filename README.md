@@ -1,9 +1,10 @@
-## View demo at: https://estela-diaz-uber.now.sh/
-
+## [Demo with scrolling transitions](estela-diaz.sliding-transitions.now.sh/)
+## [Demo with routes, next, and previous buttons](estela-diaz.sliding-transitions.now.sh/)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-- Uses [Emotion.JS](https://emotion.sh/) for writing CSS in JS
 - Serverless deploy with [Now](https://zeit.co/now)
+- ~~Uses [Emotion.JS](https://emotion.sh/) for writing CSS in JS~~ incompatible with `create-react-app`, using scss instead
+
 
 
 ### Available Scripts
