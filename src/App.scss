@@ -1,3 +1,12 @@
+.container {
+  scroll-snap-type: mandatory;
+	scroll-snap-points-y: repeat(100vw);
+	scroll-snap-type: x mandatory;
+  display: flex;
+  flex-wrap: wrap;
+	overflow-x: scroll;
+}
+
 header, section {
   align-items: center;
   color: #000;
@@ -6,6 +15,7 @@ header, section {
   font-size: calc(10px + 2vmin);
   height: 50vh;
   justify-content: center;
+  position: relative;
   text-align: center;
   width: 300vw;
   h1 {
@@ -17,6 +27,7 @@ header, section {
     margin: 0;
   }
   .content, .gradient {
+    scroll-snap-align: start;
     width: 100vw;
   }
   .logo {
@@ -63,12 +74,3 @@ header, section {
     }
   }
 }
-
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
